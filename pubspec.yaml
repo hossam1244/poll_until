@@ -1,0 +1,16 @@
+name: poll_until
+description: >-
+  Poll an async function until a condition is met — fixed or exponential
+  backoff between attempts, a deadline, and cooperative cancellation.
+  Deterministic in tests via an injectable sleeper and clock.
+version: 0.1.0
+repository: https://github.com/hossam1244/poll_until
+issue_tracker: https://github.com/hossam1244/poll_until/issues
+topics: [async, polling, retry, dart, flutter]
+
+environment:
+  sdk: ^3.0.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
